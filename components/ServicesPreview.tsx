@@ -58,7 +58,7 @@ export default function ServicesPreview() {
             <span className="text-premium-black">Serviciile</span>{' '}
             <span className="text-premium-red">Noastre</span>
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="hidden sm:block text-gray-600 text-lg max-w-2xl mx-auto">
             Oferim servicii complete de reparații auto, de la reparații simple la intervenții complexe. Calitate profesională și garanție pentru toate lucrările.
           </p>
         </motion.div>

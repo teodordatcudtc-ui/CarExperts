@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[55vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative min-h-[50vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -104,7 +104,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-lg sm:text-xl md:text-2xl text-premium-black mb-3 max-w-3xl mx-auto font-light drop-shadow-lg"
+          className="text-xl sm:text-xl md:text-2xl text-premium-black mb-3 max-w-3xl mx-auto font-light drop-shadow-lg"
         >
           Transformăm mașinile în bestii de performanță
         </motion.p>
@@ -113,7 +113,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-base sm:text-lg text-premium-black mb-8 max-w-2xl mx-auto drop-shadow-lg"
+          className="text-lg sm:text-lg text-premium-black mb-8 max-w-2xl mx-auto drop-shadow-lg"
         >
           <span className="text-premium-red font-semibold">Performanță.</span> Pasiune. <span className="text-premium-red font-semibold">Precisiune.</span>
         </motion.p>

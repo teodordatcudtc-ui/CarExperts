@@ -126,13 +126,13 @@ export default function Hero() {
         >
           <Link
             href="/services"
-            className="liquid-shine-btn flex-1 px-6 py-3 sm:px-10 sm:py-5 text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-sm sm:text-lg shadow-lg text-center"
+            className="liquid-shine-btn flex-1 px-6 py-3 sm:px-10 sm:py-5 h-12 sm:h-auto text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-sm sm:text-lg shadow-lg text-center flex items-center justify-center"
           >
             Serviciile Noastre
           </Link>
           <Link
             href="/contact"
-            className="flex-1 px-6 py-3 sm:px-10 sm:py-5 border-2 border-premium-black text-premium-black font-bold uppercase tracking-wider rounded-none hover:bg-premium-black hover:text-white transition-all text-sm sm:text-lg text-center"
+            className="flex-1 px-6 py-3 sm:px-10 sm:py-5 h-12 sm:h-auto border-2 border-premium-black text-premium-black font-bold uppercase tracking-wider rounded-none hover:bg-premium-black hover:text-white transition-all text-sm sm:text-lg text-center flex items-center justify-center"
           >
             Contact
           </Link>

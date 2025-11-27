@@ -134,7 +134,7 @@ export default function Hero() {
             href="/contact"
             className="px-6 py-3 sm:px-10 sm:py-5 border-2 border-premium-black text-premium-black font-bold uppercase tracking-wider rounded-none hover:bg-premium-black hover:text-white transition-all text-sm sm:text-lg"
           >
-            Contactează-ne
+            Contact
           </Link>
         </motion.div>
 

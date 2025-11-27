@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative min-h-[55vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -126,13 +126,13 @@ export default function Hero() {
         >
           <Link
             href="/services"
-            className="liquid-shine-btn px-10 py-5 text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-lg shadow-lg"
+            className="liquid-shine-btn px-6 py-3 sm:px-10 sm:py-5 text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-sm sm:text-lg shadow-lg"
           >
             Serviciile Noastre
           </Link>
           <Link
             href="/contact"
-            className="px-10 py-5 border-2 border-premium-black text-premium-black font-bold uppercase tracking-wider rounded-none hover:bg-premium-black hover:text-white transition-all text-lg"
+            className="px-6 py-3 sm:px-10 sm:py-5 border-2 border-premium-black text-premium-black font-bold uppercase tracking-wider rounded-none hover:bg-premium-black hover:text-white transition-all text-sm sm:text-lg"
           >
             Contactează-ne
           </Link>

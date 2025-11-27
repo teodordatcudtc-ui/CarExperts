@@ -126,7 +126,7 @@ export default function Hero() {
         >
           <Link
             href="/services"
-            className="liquid-shine-btn flex-1 px-6 py-3 sm:px-10 sm:py-5 h-12 sm:h-auto text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-sm sm:text-lg shadow-lg text-center flex items-center justify-center"
+            className="liquid-shine-btn flex-1 px-6 py-3 sm:px-10 sm:py-5 h-12 sm:h-auto text-white font-bold uppercase tracking-wider rounded-none transform hover:scale-105 transition-transform text-sm sm:text-lg shadow-lg text-center flex items-center justify-center whitespace-normal sm:whitespace-nowrap"
           >
             Serviciile Noastre
           </Link>

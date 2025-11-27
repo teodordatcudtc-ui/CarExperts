@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[50vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative min-h-[45vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden bg-white">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -78,7 +78,7 @@ export default function Hero() {
           className="mb-8"
         >
           <span className="inline-block px-4 py-2 bg-premium-red/10 text-premium-red text-sm font-bold uppercase tracking-wider mb-6">
-            Tuning Auto Premium
+            Service Auto Premium
           </span>
         </motion.div>
 

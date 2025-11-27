@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="text-premium-black">EXPERTS</span>
             </h3>
             <p className="text-gray-600 text-sm mb-4">
-              Atelier premium de tuning auto în București. Experiență, pasiune și performanță.
+              Atelier premium de service auto în București. Experiență, pasiune și performanță.
             </p>
             <div className="space-y-2 text-sm text-gray-700">
               <p>

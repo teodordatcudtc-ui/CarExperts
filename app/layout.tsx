@@ -8,13 +8,13 @@ import QuickBookingButton from '@/components/QuickBookingButton'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Car Experts - Tuning Auto Premium București | Service Tuning Profesional',
-  description: 'Car Experts - Atelier premium de tuning auto în București. Servicii profesionale de tuning, modificări performanță, chip tuning și personalizare auto. Experiență de peste 10 ani.',
-  keywords: 'tuning auto București, service tuning București, chip tuning, modificări performanță auto, atelier tuning, Car Experts',
+  title: 'Car Experts - Service Auto Premium București | Service Auto Profesional',
+  description: 'Car Experts - Atelier premium de service auto în București. Servicii profesionale de reparații auto, service complet, diagnostic și mentenanță. Experiență de peste 10 ani.',
+  keywords: 'service auto București, service auto București, reparații auto, service auto profesional, atelier auto, Car Experts',
   authors: [{ name: 'Car Experts' }],
   openGraph: {
-    title: 'Car Experts - Tuning Auto Premium București',
-    description: 'Atelier premium de tuning auto în București. Servicii profesionale de tuning și modificări performanță.',
+    title: 'Car Experts - Service Auto Premium București',
+    description: 'Atelier premium de service auto în București. Servicii profesionale de reparații auto și service complet.',
     type: 'website',
     locale: 'ro_RO',
     siteName: 'Car Experts',
@@ -41,7 +41,7 @@ export default function RootLayout({
               "@type": "AutomotiveRepair",
               "name": "Car Experts",
               "image": "https://carexperts.ro/logo.png",
-              "description": "Atelier premium de tuning auto în București",
+              "description": "Atelier premium de service auto în București",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Strada Luigi Galvani",

@@ -50,7 +50,7 @@ export default function AboutContent() {
             <span className="text-premium-red">Car Experts</span>
           </h1>
           <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
-              Suntem un atelier premium de tuning auto din București, cu peste 10 ani de experiență în transformarea mașinilor în adevărate bestii de performanță. Pasiunea noastră pentru tuning și atenția la detalii ne face diferiți.
+              Suntem un atelier premium de service auto din București, cu peste 10 ani de experiență în reparații auto și service complet. Pasiunea noastră pentru service auto și atenția la detalii ne face diferiți.
             </p>
           </motion.div>
         </div>
@@ -96,7 +96,7 @@ export default function AboutContent() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Car Experts a fost fondat din pasiunea pentru tuning auto și dorința de a oferi servicii de cea mai înaltă calitate în București. Începuturile noastre datează din 2013, când am transformat primul proiect într-un succes răsunător.
+                  Car Experts a fost fondat din pasiunea pentru service auto și dorința de a oferi servicii de cea mai înaltă calitate în București. Începuturile noastre datează din 2013, când am finalizat primul proiect cu succes.
                 </p>
                 <p>
                   De-a lungul anilor, am lucrat cu sute de mașini, de la hatchback-uri sport la supercar-uri. Fiecare proiect este tratat cu aceeași atenție și profesionalism, indiferent de buget sau complexitate.
@@ -134,7 +134,7 @@ export default function AboutContent() {
               <span className="text-premium-red">Noastră</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Specialiști pasionați cu experiență vastă în tuning auto
+              Specialiști pasionați cu experiență vastă în service auto
             </p>
           </motion.div>
 
@@ -189,7 +189,7 @@ export default function AboutContent() {
               },
               {
                 title: 'Experiență',
-                description: 'Peste 10 ani de experiență în tuning auto. Am lucrat cu sute de mașini și proiecte complexe.',
+                description: 'Peste 10 ani de experiență în service auto. Am lucrat cu sute de mașini și proiecte complexe.',
                 icon: '🎯',
               },
               {
